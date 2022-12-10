@@ -14,25 +14,25 @@ DBSCAN, or Density-Based Spatial Clustering of Applications with Noise, is a clu
 Data visualization is of the utmost importance when exploring spatial data, but when the temporal dimension is added, things can get complicated quite easily. There are a multitude of options for different techniques to visualize spatiotemporal data, but ultimately there are not a ton of options within Python, making this an area that I would deem to be an important area of focus for the geospatial open-source development community. Although there are plenty of options to visualize spatial data, and a larger amount that can visualixe multimdimensional data quite well, when these two are combined together the options are limited.
 
 With this is mind, I decided to display the data a few differnt ways, as described below.
-    "1. Plotly 3D Scatterplot
-    "2. Matplotlib 3D Line Plot
-    "3. Matplotlib (& Contextily) Static 2D Cluster Map
-    "4. Seaborn Animated Time Series KDEPlot
+1. Plotly 3D Scatterplot
+2. Matplotlib 3D Line Plot
+3. Matplotlib (& Contextily) Static 2D Cluster Map
+4. Seaborn Animated Time Series KDEPlot
 
 Each of these plot types has their own pros and cons, but ultimately there is no existing package in Python that combines the best parts of each of these plots.
 
 In the future, I think there several ways that visualization could be improved, which are listed below.
-    1. Integration with Uber's H3
-    2. Using Voxels (like Esri's Space-Time Cube)
-    3. Animated Flow Maps
-    4. Animated Vector Fields
-    5. 3D Scatter/Line Plots with Geospatial Context (like Plotly with geospatial context embedded within it)
+1. Integration with Uber's H3
+2. Using Voxels (like Esri's Space-Time Cube)
+3. Animated Flow Maps
+4. Animated Vector Fields
+5. 3D Scatter/Line Plots with Geospatial Context (like Plotly with geospatial context embedded within it)
     
 Additionally, here are some exciting projects that are making progess in the field of spatiotemporal visualization.
-    - [VASA](https://github.com/move-ucsb/VASA)
-    - [DynamoVis](https://github.com/move-ucsb/DynamoVis)
-    - [MovingPandas](https://github.com/anitagraser/movingpandas)
-    - [TransBigData](https://github.com/ni1o1/transbigdata)
-    - [scikit-mobility](https://github.com/scikit-mobility/scikit-mobility)
-    - [FlowMapper](https://flowmapper.org)
-    - [kepler.gl](https://docs.kepler.gl)
+- [VASA](https://github.com/move-ucsb/VASA)
+- [DynamoVis](https://github.com/move-ucsb/DynamoVis)
+- [MovingPandas](https://github.com/anitagraser/movingpandas)
+- [TransBigData](https://github.com/ni1o1/transbigdata)
+- [scikit-mobility](https://github.com/scikit-mobility/scikit-mobility)
+- [FlowMapper](https://flowmapper.org)
+- [kepler.gl](https://docs.kepler.gl)
